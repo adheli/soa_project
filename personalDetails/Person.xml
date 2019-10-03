@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<PersonalDetails xmlns ="http://www.personal.com" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="http://www.personal.com PersonalDetails.xsd">
+    <name>Joe Bloggs</name>
+    <age>10</age>
+    <dob>2000-01-22</dob>
+    <year>2000</year>
+    <month>01</month>
+    <day>22</day>
+    <time>10:12:03</time>
+</PersonalDetails>

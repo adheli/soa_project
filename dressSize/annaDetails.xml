@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<DressDetail xmlns ="http://www.sml.com" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="http://www.sml.com DressDetail.xsd">
+    <name>Anna Bloggs</name>
+    <dressSize>Medium</dressSize>
+</DressDetail>

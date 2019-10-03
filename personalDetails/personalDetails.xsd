@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.personal.com" 
+    xmlns="http://www.personal.com" elementFormDefault="qualified">
+    <xsd:complexType name="PersonalDetails">
+        <xsd:sequence>
+            <xsd:element name="name" type="xsd:string"/>
+            <xsd:element name="age" type="xsd:nonNegativeInteger"/>
+            <xsd:element name="dob" type="xsd:date"/>
+            <xsd:element name="year" type="xsd:gYear"/>
+            <xsd:element name="month" type="xsd:gMonth"/>
+            <xsd:element name="day" type="xsd:gDay"/>
+            <xsd:element name="time" type="xsd:time"/>
+        </xsd:sequence>
+    </xsd:complexType>
+    <!-- <xsd:simpleType name="dobMonth">
+        <xsd:restriction base="xsd:string">
+            <xsd:length value="6"/>
+            <xsd:pattern value="-\-\d{2}-\-"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+    <xsd:simpleType name="dobDay">
+        <xsd:restriction base="xsd:string">
+            <xsd:length value="6"/>
+            <xsd:pattern value="-\-\-\-\d{2}"/>
+        </xsd:restriction>
+    </xsd:simpleType> -->
+</xsd:schema>
